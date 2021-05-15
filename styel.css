@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  margin: auto;
+  background-color: #bbb2e9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#header {
+  background-color: #8b77f0;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 20px;
+  box-shadow: 5px 5px 20px 8px #00000042;
+}
+
+#title {
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+  color: azure;
+}
+
+#title h1 {
+  font-size: 70px;
+  font-family: "Farro", sans-serif;
+}
+
+#title h2 {
+  margin: 15px 0px;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#img-caption {
+  text-align: center;
+  margin-top: 16px;
+  font-style: oblique;
+  font-size: 20px;
+  color: azure;
+  padding: 0px 8px;
+}
+
+#tribute-info {
+  padding: 22px;
+  margin-top: 20px;
+}
+
+#tribute-info ul {
+  width: 45%;
+  margin: auto;
+  font-size: 22px;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+}
+
+#tribute-info h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 35px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#tribute-info ul li {
+  margin-bottom: 20px;
+  line-height: 1.8rem;
+  list-style: square;
+}
+
+.quote-section {
+  width: 50%;
+  margin: auto;
+  font-size: 1.5rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px 10px;
+  font-family: "Dancing Script", cursive;
+}
+
+footer {
+  margin: 18px 25px 0px;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #8b77f0;
+  border-radius: 16px;
+  padding: 20px 10px;
+  font-family: "Crimson Pro", serif;
+}
+
+footer p a {
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: #5130f7;
+}
+
+@media (max-width: 1024px) {
+  #tribute-info ul {
+    width: auto;
+    margin: 0px 20px;
+  }
+
+  .quote-section {
+    width: auto;
+    margin: 0px 18px;
+  }
+}
