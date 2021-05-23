@@ -135,4 +135,12 @@ footer p a:hover {
   #img-caption {
     font-size: 16px;
   }
+
+  #title h1 {
+    font-size: 50px;
+  }
+
+  #title h2 {
+    font-size: 20px;
+  }
 }
