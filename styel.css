@@ -17,13 +17,15 @@
 
 #main {
   margin: auto;
-  background-color: #bbb2e9;
+  /* background-color: #fbab7e; */
+  /* background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%); */
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 #header {
-  background-color: #8b77f0;
+  background-color: #e9967a;
   border-radius: 20px;
   width: 80%;
   margin: auto;
@@ -56,6 +58,7 @@
   height: auto;
   display: block;
   margin: auto;
+  border-radius: 10px;
 }
 
 #img-caption {
@@ -107,7 +110,7 @@ footer {
   margin: 18px 25px 0px;
   text-align: center;
   font-size: 1.5rem;
-  background-color: #8b77f0;
+  background-color: #e9967a;
   border-radius: 16px;
   padding: 20px 10px;
   font-family: "Crimson Pro", serif;
@@ -130,6 +133,10 @@ footer p a:hover {
   .quote-section {
     width: auto;
     margin: 0px 18px;
+  }
+
+  #image {
+    border-radius: 0px;
   }
 
   #img-caption {
